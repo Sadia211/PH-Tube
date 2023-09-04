@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <nav>
+        <div class="mx-10 my-5">
+        <div class="navbar bg-base-100 mx-10 ">
+            
+            <img src="Logo.png">
+          </div></div>
+       </nav> 
+
+       <div class="mx-10">
+        <h1 class="text-3xl">Discuss the scope of var, let, and const</h1>
+        
+
+<p><br>Var: var variables have function-level scope. This means they are only accessible within the function in which they are declared.
+Variables declared with var are hoisted to the top of their containing function or the global scope. This means you can access them before they are declared in the code, but they will have an initial value of undefined.
+var variables can be re-declared within the same scope without error.<br><br>
+Let: let variables have block-level scope. This means they are accessible only within the block (enclosed by curly braces) in which they are defined.
+Variables declared with let are not hoisted. You cannot access them before their declaration.
+let variables cannot be re-declared within the same block scope, but they can be reassigned.
+<br><br>
+Const : const variables also have block-level scope, just like let.
+Variables declared with const cannot be reassigned after their initial value is assigned. They are used for constants.
+const variables cannot be re-declared within the same block scope.</p>
+         
+         <h1 class="text-3xl"><br> Tell us the use cases of null and undefined</h1>
+         <p><br>null:
+
+            Explicit Absence of Value: null is a value that represents the deliberate absence of any object value or data. It is typically used when you want to explicitly indicate that a variable or object property has no meaningful value.
+            Common Use Cases:
+            Initializing variables or properties to indicate that they have no value.
+            Clearing or resetting object properties or variables.
+            Handling situations where an expected object or value is intentionally missing or not available.<br>
+<br>
+            undefined:
+            Implicit Absence of Value: undefined is a value that indicates the absence of an assigned value. It is often used when a variable or property has not been initialized or has no assigned value.
+            Common Use Cases:
+            Variables declared but not assigned a value.
+            Function parameters that are not provided with arguments.
+            Object properties that have not been defined or initialized.
+            Return value of a function that doesn't explicitly return anything (functions implicitly return undefined).
+                   
+            </p>
+
+
+
+  </div>       
+</body>
+</html>
